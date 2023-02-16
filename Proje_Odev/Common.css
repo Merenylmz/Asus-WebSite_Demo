@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+h3:hover{
+    color: red;
+    transition: .5s;
+}
+
+.serit
+{
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+
+}
+.serit p {margin: 0; font-size: 12px;}
+
+.yazi{
+    text-align: center;
+   
+    font-weight: bold;
+    color: black;
+}
+#etki{
+    margin: 40px 0;
+    border: 1px gray solid;
+}
+#etki:hover{
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+}
+
+#etkicik:hover{
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
+}
+
+#navbar_btn:hover{
+    color: red;
+}
+#normal_btn:hover{
+    color: red;
+}
+#dropdown_items{
+    font-size: 13px;
+}
+.deneme:hover .denemenu{
+    display: block;
+}
+
+
+
+
